@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Comfortaa:wght@300..700&family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rouge+Script&display=swap");
+
+:root {
+  --dark-red: #843536;
+  --medium-red: #be7e6a;
+  --light-red: #bb9587;
+  --white-ish: #f8eae9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100dvh;
+  width: 100vw;
+  font-family: "Arvo", serif;
+}
+
+.background {
+  background-image: url(public/assets/Desktop.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  border-radius: 19px;
+  border: 3px solid var(--dark-red);
+  background: rgb(248, 234, 233, 0.8);
+  padding: 52px 10px;
+  width: 516px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 66px;
+}
+
+@media (max-width: 500px) {
+  .card {
+    height: 100dvh;
+    width: 100vw;
+    border: none;
+  }
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-header__profile-image {
+  border-radius: 100%;
+  height: 142px;
+  width: 142px;
+}
+
+.card-header__name {
+  color: var(--dark-red);
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.card-header__last-name {
+  font-weight: 700;
+}
+
+.card-header__description {
+  font-size: 1.1rem;
+  color: var(--dark-red);
+}
+
+.card__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  width: 100%;
+}
+
+.card__links li {
+  border-radius: 17px;
+  border-right: 5px solid var(--dark-red);
+  border-bottom: 5px solid var(--dark-red);
+  background: var(--medium-red);
+
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card__links li a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+
+  padding: 10px 10px;
+
+  font-size: 24px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.card__social-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  list-style: none;
+  gap: 59px;
+}
+
+.card__social-links img {
+  width: 46px;
+  height: 46px;
+}
+
+.card__links li:hover,
+.card__social-links img:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}

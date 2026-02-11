@@ -1,0 +1,35 @@
+{
+  "name": "By",
+  "lastName": "  Taai",
+  "avatar": "/public/assets/logo.png",
+
+  "description": "Joias & Semijoias Premium",
+
+  "links": [
+    {
+      "text": "Whatsapp",
+      "href": "https://wa.me/55991999999"
+    },
+    {
+      "text": "Loja Online",
+      "href": "https://bytaai.com.br/"
+    },
+    {
+      "text": "Instagram Pessoal",
+      "href": "https://www.instagram.com/dailydataai_/"
+    }
+  ],
+
+  "socialLinks": [
+    {
+      "text": "Instagram",
+      "icon": "/public/assets/instagram.png",
+      "href": "https://www.instagram.com/by.taaijoias_/"
+    },
+    {
+      "text": "Facebook",
+      "icon": "/public/assets/facebook.png",
+      "href": "https://www.facebook.com/brigitbytaai/?ref=PROFILE_EDIT_xav_ig_profile_page_web#"
+    }
+  ]
+}
