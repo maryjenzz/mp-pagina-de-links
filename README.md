@@ -1,57 +1,36 @@
-# Lista de Links
+# 🔗 Link Page - By Taai
 
-Crie uma página semelhante ao [Linktree](https://linktr.ee/), onde usuários possam exibir uma lista de seus links pessoais. Esta aplicação irá extrair informações de um arquivo JSON presente no repositório, proporcionando uma interface personalizada que imita uma mini página de perfil.
+Este projeto é uma página de links personalizada, inspirada no conceito do [Linktree](https://linktr.ee/), desenvolvida como um desafio prático do **Codante.io**. A aplicação exibe informações de perfil, links importantes e redes sociais de forma dinâmica e responsiva.
 
-## 🔨 Requisitos
+## 🚀 Resultado Final
 
-- Desenvolva uma página para exibir links no estilo Linktree.
-- A fonte das informações deve ser um arquivo JSON no repositório do código, com os campos:
-  - `{ name, avatar, description, links, socialLinks }`
-- Exiba o avatar e o nome do(a) usuário(a).
-  - O último sobrenome deve estar em **negrito**.
-- Apresente uma breve descrição do usuário.
-- Mostre uma lista com até 5 links.
-- Apresente uma lista de links para redes sociais.
-    - Sugestões: LinkedIn, Facebook, e Instagram.
-    - A lista de redes sociais no arquivo JSON deve ser configurada de forma que novas redes possam ser adicionadas sem necessidade de mudanças no código.
-- Utilize **HTML**, **CSS** e **JavaScript**. Sem frameworks.
-- Faça o design responsivo, priorizando o mobile-first.
+O projeto final entrega uma interface limpa e elegante, focada em dispositivos móveis (**Mobile-First**), com os seguintes destaques:
 
-### Deploy
+* **Dinâmico**: Todas as informações (nome, avatar, links e ícones) são consumidas de um arquivo `profile.json`.
+* **Estilo Linktree**: Elementos bem distribuídos verticalmente, garantindo que o conteúdo não fique agrupado no topo.
+* **Responsivo**: Layout adaptável que funciona perfeitamente desde smartphones (iPhone/Android) até telas de desktop.
 
-- Ao concluir sua implementação, faça o deploy e submeta sua solução no Codante.io.
+## 🛠️ Tecnologias Utilizadas
 
-## 🔍 Dicas
+Para este desafio, priorizei o uso de tecnologias nativas para garantir performance e simplicidade:
 
-- Estruture o arquivo JSON de forma clara e intuitiva. Isto facilitará a adição ou remoção de links e redes sociais no futuro.
-- Concentre-se em fazer um design limpo e fácil de usar, especialmente em dispositivos móveis.
+* **HTML5**: Estrutura semântica da página.
+* **CSS3**: Estilização com variáveis, Flexbox e Media Queries para responsividade.
+* **JavaScript (ES6+)**: Manipulação do DOM para renderizar os dados do JSON dinamicamente.
+* **Vite**: Ferramenta de build para um desenvolvimento rápido e otimizado.
 
-## 🎨 Design Sugerido
+## 📋 Requisitos Atendidos
 
-Temos uma sugestão de design no Figma. No entanto, sinta-se livre para usar sua criatividade e desenvolver um design único e autêntico.
+De acordo com as especificações do projeto:
 
-🔗[Link do Figma](https://www.figma.com/community/file/1290334353760015149)
+* [x] Exibição de avatar e nome (com o último sobrenome em **negrito**).
+* [x] Descrição curta do usuário.
+* [x] Lista de até 5 links principais.
+* [x] Lista de redes sociais configurável via JSON.
+* [x] Design responsivo priorizando dispositivos móveis.
 
-![Design sugerido](https://github.com/codante-io/mp-pagina-de-links/assets/6475893/c9517f38-8ad5-479e-8a93-f5d1d5c114e1)
+## 🎨 Design
 
-## 👉🏽 Sobre esse mini-projeto
+O design foi baseado no modelo sugerido no Figma, utilizando uma paleta de cores voltada para a paleta da loja.
 
-### Tecnologias sugeridas
-
-- **HTML**
-- **CSS**
-- **JavaScript**
-
-### Pré-requisitos
-
-- Conhecimento básico em `HTML`, `CSS`, e `JavaScript`.
-
-## ❓ FAQ
-
-### Posso utilizar bibliotecas ou frameworks adicionais?
-
-O foco deste projeto é utilizar HTML, CSS e JavaScript puro, sem dependências adicionais. Por isso, recomendamos que você não utilize bibliotecas ou frameworks externos. A nossa resolução oficial será implementada dessa forma. Porém você é livre para submeter uma solução utilizando quaisquer ferramentas!
-
-### Como posso melhorar ainda mais meu projeto após finalizar os requisitos?
-
-Considere adicionar interatividades, como animações sutis ao passar o mouse sobre os links ou um modo noturno para a interface. Também pode pensar em desenvolver uma funcionalidade que permita a múltiplos usuários criar e personalizar suas próprias listas de links.
+---
